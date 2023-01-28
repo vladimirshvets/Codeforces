@@ -4,7 +4,6 @@
  * https://codeforces.com/problemset/problem/282/A 
  */
 
-
 // Read a number of operators - integer value in range [1..150].
 string input = Console.ReadLine();
 var numberOfOperators = int.Parse(input);
