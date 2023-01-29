@@ -11,15 +11,6 @@ internal class Program
         // Read the number to test of luck.
         int numberToCheck = int.Parse(Console.ReadLine());
 
-        // According to the task description, numberToCheck is not greater than 1000.
-        // The required number of digits of a divisor is up to 3.
-        // Example: max lucky divisor which is not greater than 1000 is 777.
-        // 1000 is also a valid divisor for numberToCheck, but
-        // this is not a lucky number. However, 1000 can be divided by 4
-        // which is a valid divisor and can be covered by the 3-digit divisor.
-        //var luckyNumberGenerator = new int[3] { 0, 0, 0 };
-
-
         // Use lucky number generator to check if the entered number
         // can be divided by any of lucky numbers.
         bool isAlmostLucky = false;
