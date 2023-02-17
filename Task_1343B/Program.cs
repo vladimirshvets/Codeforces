@@ -1,7 +1,7 @@
 ﻿/* 
  * Task 1343B
  * 
- * https://codeforces.com/problemset/problem/1343/V
+ * https://codeforces.com/problemset/problem/1343/B
  */
 
 using System.Text;
