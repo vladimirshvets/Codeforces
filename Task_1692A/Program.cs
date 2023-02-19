@@ -13,7 +13,6 @@ for (int i = 0; i < numberOfTests; i++)
     int[] distances =
         Array.ConvertAll(Console.ReadLine().Split(' '), v => int.Parse(v));
     int distanceOfTimur = distances[0];
-    Array.Sort(distances);
 
     // Count the runners who ran longer distances than Timur.
     int shortlist = (from d in distances

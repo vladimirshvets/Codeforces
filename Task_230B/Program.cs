@@ -49,7 +49,6 @@ internal class Program
     private static IEnumerable<long> GetPrimeNumberSquares(long maxPrime)
     {
         // Using the "Sieve of Eratosthenes" approach.
-        List<long> primes = new();
         bool[] sieve = new bool[maxPrime + 1];
 
         for (long i = 2; i * i <= maxPrime; i++)
